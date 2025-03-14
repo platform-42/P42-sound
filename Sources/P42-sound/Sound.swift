@@ -12,6 +12,7 @@ import AVFoundation
 public enum SoundId: SystemSoundID {
     case click = 1306
     case lock = 1100
+    case reject = 1053
 }
 
 
