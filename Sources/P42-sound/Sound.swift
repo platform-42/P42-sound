@@ -13,6 +13,9 @@ public enum SoundId: SystemSoundID {
     case click = 1306
     case lock = 1100
     case reject = 1053
+    case tock = 1024
+    case chime = 1029
+    case error = 1011
 }
 
 
