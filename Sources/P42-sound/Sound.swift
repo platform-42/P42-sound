@@ -15,6 +15,7 @@ public enum SoundId: SystemSoundID {
     case reject = 1053
     case tock = 1008
     case alert = 1005
+    case trash = 1155
 }
 
 
