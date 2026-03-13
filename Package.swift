@@ -2,21 +2,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "P42-sound",
+    name: "P42Sound",
     platforms: [
         .iOS(.v17),
         .macOS(.v13)
     ],
     products: [
         .library(
-            name: "P42-sound",
-            targets: ["P42-sound"]),
+            name: "P42Sound",
+            targets: ["P42Sound"]),
     ],
     targets: [
         .target(
-            name: "P42-sound"),
-        .testTarget(
-            name: "P42-soundTests",
-            dependencies: ["P42-sound"]),
+            name: "P42Sound")
     ]
 )
